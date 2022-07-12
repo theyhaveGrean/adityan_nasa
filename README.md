@@ -19,6 +19,8 @@ Fresh Start Iteration: Refers to each time a new civilization is created and a f
 ## Initial Processing
 The set of coordinates is initially inputted by the user. It is copied and shuffled once per fresh start iteration, to prevent the user accidentally giving the algorithm a set of “accurate points” when testing. Two parents are created before generational iteration begins, both with random paths.
 
+Note: The 25-point set I used is provided in this repo as coordinates.csv
+
 ## Generational Iteration
 Per generational iteration, two parents are inputted, and two children are outputted. The outputted children become the parents of the next generation. 
 
